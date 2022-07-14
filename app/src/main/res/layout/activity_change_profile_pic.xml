@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".change_profile_pic">
+
+    <include
+        android:id="@+id/toolbar_cpp"
+        layout="@layout/bar_layout"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/fb_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Facebook ID"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        app:met_floatingLabel="normal"
+        android:layout_below="@id/toolbar_cpp"/>
+
+    <Button
+        android:id="@+id/fb_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="SAVE"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/fb_id"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

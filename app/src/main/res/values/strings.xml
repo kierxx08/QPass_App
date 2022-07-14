@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QPass Laurel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="prefLoginState">loginstate</string>
+    <string name="prefLoginUser">loginuser</string>
+    <string name="prefLoginKey">loginkey</string>
+
+    <string name="pref_stats_date">stats_date</string>
+    <string name="pref_cases">cases</string>
+    <string name="pref_recovered">recovered</string>
+    <string name="pref_deaths">deaths</string>
+    <string name="pref_active">active</string>
+</resources>
